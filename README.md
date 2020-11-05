@@ -8,6 +8,17 @@ You can find the full documentation in "<your MT SDK directory>/doc/xsensdevicea
   - ROS Kinetic or Melodic
   - C/C++ Compiler: GCC 5.4.0 or MSVC 14.0
   - C++11
+  
+## Configuration Setting
+  - Execute mtmanager that is located [here](./mtmanager_linux-x64_2019.2/mtmanager/linux-x64/bin)
+      $ ./mtmanager
+      
+  - The following packages/libraries need to be installed:
+      - QT5 (use qt-default on Ubuntu)
+      - libqt5opengl5
+      - libusb-1.0-0
+      - libxcb-xinerama0 (on Ubuntu)
+      - libpng12-0
 
 ## Building
   - Copy xsens_mti_driver to catkin workspace 'src' folder
